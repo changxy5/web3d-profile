@@ -1,0 +1,28 @@
+/* 亮色主题色 */
+:root body[theme-mode="light"]{
+  --pink: #ffb6b9;
+  --pale-pink: #fae3d9;
+  --green:#2e4040;
+  --pale-green:#c7cfc6;
+  --gray:#8b8687;
+  --pale-gray:#e3dede;
+  --text-color: #000000;
+}
+
+/* 暗色主题色 */
+:root body[theme-mode="dark"] {
+  --pink: #93A6B1;
+  --pale-pink: #403E4E;
+  --green:#c7cfc6;
+  --pale-green:#2e4040;
+  --gray:#a3a1a1;
+  --pale-gray:#333030;
+  --text-color: #fff;
+} 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:var(--text-color);
+}
